@@ -1,0 +1,185 @@
+{
+  "orders": [
+    {
+      "id": "ORD004",
+      "customerName": "harshi",
+      "mobile": "7896321450",
+      "items": [
+        {
+          "itemType": "Three-Piece Suit",
+          "measurements": {},
+          "price": 100,
+          "notes": ""
+        }
+      ],
+      "totalPrice": 100,
+      "amountPaid": 0,
+      "deliveryDate": "2026-07-29",
+      "status": "Delivered",
+      "createdAt": "2026-07-22T07:10:00.613Z"
+    },
+    {
+      "id": "ORD001",
+      "customerName": "Alice Johnson",
+      "mobile": "9876543210",
+      "items": [
+        {
+          "itemType": "Three-Piece Suit",
+          "measurements": {
+            "Neck": "16 inches",
+            "Chest": "38 inches",
+            "Waist": "32 inches",
+            "Hip": "40 inches",
+            "Shoulder": "18 inches",
+            "Sleeve Length": "25 inches",
+            "Jacket Length": "30 inches",
+            "Trouser Length": "40 inches",
+            "Inseam": "31 inches"
+          },
+          "price": 350,
+          "notes": "Premium navy blue wool fabric. Gold buttons on cuffs."
+        }
+      ],
+      "totalPrice": 350,
+      "amountPaid": 150,
+      "deliveryDate": "2026-07-15",
+      "status": "Delivered",
+      "createdAt": "2026-07-05T10:00:00.000Z"
+    },
+    {
+      "id": "ORD002",
+      "customerName": "Bob Smith",
+      "mobile": "8765432109",
+      "items": [
+        {
+          "itemType": "Slim Fit Shirt",
+          "measurements": {
+            "Neck": "15.5 inches",
+            "Chest": "40 inches",
+            "Waist": "34 inches",
+            "Shoulder": "17.5 inches",
+            "Sleeve Length": "24.5 inches",
+            "Shirt Length": "29 inches"
+          },
+          "price": 75,
+          "notes": "White Egyptian cotton. Standard collar. Double cuff."
+        }
+      ],
+      "totalPrice": 75,
+      "amountPaid": 75,
+      "deliveryDate": "2026-07-12",
+      "status": "Delivered",
+      "createdAt": "2026-07-06T14:30:00.000Z"
+    },
+    {
+      "id": "ORD003",
+      "customerName": "Emma Watson",
+      "mobile": "7654321098",
+      "items": [
+        {
+          "itemType": "Evening Gown",
+          "measurements": {
+            "Bust": "34 inches",
+            "Waist": "26 inches",
+            "Hip": "36 inches",
+            "Shoulder to Waist": "15 inches",
+            "Gown Length": "58 inches"
+          },
+          "price": 500,
+          "notes": "Emerald green silk satin. Pleated waist with side slit."
+        }
+      ],
+      "totalPrice": 500,
+      "amountPaid": 250,
+      "deliveryDate": "2026-07-20",
+      "status": "Delivered",
+      "createdAt": "2026-07-09T09:15:00.000Z"
+    }
+  ],
+  "chats": [
+    {
+      "id": 1,
+      "mobile": "9876543210",
+      "sender": "customer",
+      "message": "Hi, is there any update on my blue suit?",
+      "timestamp": "2026-07-08T11:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "mobile": "9876543210",
+      "sender": "bot",
+      "message": "Hello! Your order ORD001 is currently [In Progress]. Estimated delivery: 2026-07-15. Let me know if you need anything else!",
+      "timestamp": "2026-07-08T11:00:02.000Z"
+    },
+    {
+      "id": 3,
+      "mobile": "admin-test",
+      "sender": "customer",
+      "message": "hi",
+      "timestamp": "2026-07-22T07:12:40.239Z"
+    },
+    {
+      "id": 4,
+      "mobile": "admin-test",
+      "sender": "bot",
+      "message": "Hi there! Welcome to StitchCraft Boutique. How can I help you today? Type \"track\" or \"status\" to view your orders.",
+      "timestamp": "2026-07-22T07:12:40.239Z"
+    },
+    {
+      "id": 5,
+      "mobile": "7896321450",
+      "sender": "bot",
+      "message": "[SMS Alert to 7896321450]: Your order ORD004 has updated status. New status: Completed",
+      "timestamp": "2026-07-22T07:13:15.238Z"
+    },
+    {
+      "id": 6,
+      "mobile": "9876543210",
+      "sender": "bot",
+      "message": "[SMS Alert to 9876543210]: Your order ORD001 has updated status. New status: Completed",
+      "timestamp": "2026-07-22T07:13:17.863Z"
+    },
+    {
+      "id": 7,
+      "mobile": "7654321098",
+      "sender": "bot",
+      "message": "[SMS Alert to 7654321098]: Your order ORD003 has updated status. New status: In Progress",
+      "timestamp": "2026-07-22T07:13:21.706Z"
+    },
+    {
+      "id": 8,
+      "mobile": "7654321098",
+      "sender": "bot",
+      "message": "[SMS Alert to 7654321098]: Your order ORD003 has updated status. New status: Completed",
+      "timestamp": "2026-07-22T07:13:22.935Z"
+    },
+    {
+      "id": 9,
+      "mobile": "7654321098",
+      "sender": "bot",
+      "message": "[SMS Alert to 7654321098]: Your order ORD003 has updated status. New status: Delivered",
+      "timestamp": "2026-07-22T07:13:23.419Z"
+    },
+    {
+      "id": 10,
+      "mobile": "8765432109",
+      "sender": "bot",
+      "message": "[SMS Alert to 8765432109]: Your order ORD002 has updated status. New status: Delivered",
+      "timestamp": "2026-07-22T07:13:27.004Z"
+    },
+    {
+      "id": 11,
+      "mobile": "9876543210",
+      "sender": "bot",
+      "message": "[SMS Alert to 9876543210]: Your order ORD001 has updated status. New status: Delivered",
+      "timestamp": "2026-07-22T07:13:29.632Z"
+    },
+    {
+      "id": 12,
+      "mobile": "7896321450",
+      "sender": "bot",
+      "message": "[SMS Alert to 7896321450]: Your order ORD004 has updated status. New status: Delivered",
+      "timestamp": "2026-07-22T07:13:32.024Z"
+    }
+  ]
+}
