@@ -394,3 +394,4 @@ function sendWidgetMessage(text) {
   document.querySelector('.chatbot-input-form').dispatchEvent(new Event('submit'));
 }//
 //
+//
