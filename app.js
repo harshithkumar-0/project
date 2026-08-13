@@ -393,9 +393,5 @@ function sendWidgetMessage(text) {
   document.getElementById('chatbot-widget-input').value = text;
   document.querySelector('.chatbot-input-form').dispatchEvent(new Event('submit'));
 }
-push //
-\\
-';
-\\
-'
+
 
